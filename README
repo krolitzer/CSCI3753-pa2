@@ -1,0 +1,29 @@
+CSCI 3755 (Operating Systems)
+Programming Assignment 2
+
+Author:
+Christopher Costello
+chco1865
+cdcostello@colorado.edu
+
+
+---Folders---
+input - names*.txt input files
+
+---Executables---
+multi-lookup - Multi-threaded DNS resolver
+
+---Examples---
+Build:
+ make
+
+Clean:
+ make clean
+
+Resolve all names in each input folder:
+ ./multi-lookup ./input/names*.txt results.txt
+
+Check for memory leaks: 
+ valgrind ./multi-lookup ./input/names*.txt results.txt
+
+
